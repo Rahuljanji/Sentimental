@@ -29,7 +29,7 @@ import os
 
 current_dir = os.path.dirname(__file__)
 
-pickle_file_path = os.path.join(current_dir, "C:\\Users\\Rahul\\Desktop\\Internship\\TASK 8\\webapp\\webapp\\sentiment_yonex.pkl")
+pickle_file_path = os.path.join(current_dir, "sentiment_yonex.pkl")
 
 with open(pickle_file_path, "rb") as f:
     model = pickle.load(f)
